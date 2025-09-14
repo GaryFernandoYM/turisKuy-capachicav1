@@ -3,22 +3,7 @@
 ````markdown
 <h1 align="center"><b>🌍 TurisKuy – Turismo inteligente y sostenible en Capachica</b></h1>
 
-<p align="center">
-  <a href="https://github.com/GaryFernandoYM/turisKuy-capachicav1">
-    <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-  </a>
-  <a href="https://leafletjs.com/">
-    <img src="https://img.shields.io/badge/Map-Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white">
-  </a>
-  <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.io/badge/Styles-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-  </a>
-  <a href="https://www.mysql.com/">
-    <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  </a>
-</p>
 
----
 
 ## 📖 Descripción
 
