@@ -1,14 +1,32 @@
-Perfecto 🚀 Veo que lo que quieres es que tu **README** se muestre bien en GitHub.
-En tu versión, pusiste imágenes con sintaxis mezclada `![Home]([img/1.png](...))`, lo cual hace que no se vean.
-La forma correcta es usar **Markdown puro** con la URL completa del repositorio.
 
-Aquí te dejo tu README **corregido y listo para pegar en GitHub**:
 
 ````markdown
-# 🌍 TurisKuy – Turismo inteligente y sostenible en Capachica
+<h1 align="center"><b>🌍 TurisKuy – Turismo inteligente y sostenible en Capachica</b></h1>
 
-TurisKuy es una plataforma web desarrollada en **Laravel** que promueve el turismo inteligente y sostenible en el distrito de **Capachica, Puno – Perú**.  
-Permite a los visitantes visualizar atractivos turísticos mediante geolocalización en tiempo real, mientras que los administradores cuentan con un panel para gestionar lugares, usuarios y visitas.
+<p align="center">
+  <a href="https://github.com/GaryFernandoYM/turisKuy-capachicav1">
+    <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  </a>
+  <a href="https://leafletjs.com/">
+    <img src="https://img.shields.io/badge/Map-Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white">
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Styles-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  </a>
+  <a href="https://www.mysql.com/">
+    <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  </a>
+</p>
+
+---
+
+## 📖 Descripción
+
+**TurisKuy** es una plataforma web desarrollada en **Laravel** que promueve el turismo inteligente y sostenible en el distrito de **Capachica, Puno – Perú**.  
+
+- 👥 Los visitantes pueden visualizar atractivos turísticos mediante geolocalización en tiempo real.  
+- 🛠️ Los administradores cuentan con un panel de control para gestionar **lugares, usuarios y visitas**.  
+- 📊 Se incluyen **estadísticas y mapas de calor** para analizar la actividad turística.  
 
 ---
 
@@ -19,30 +37,33 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
 - 🏞️ **Gestión de lugares turísticos** (registro, habilitar/deshabilitar).  
 - 👥 **Administración de usuarios y visitas**.  
 - 📊 **Dashboard con estadísticas** y mapas de calor.  
-- 🎨 **Diseño moderno e intuitivo** con experiencia responsiva.
+- 🎨 **Diseño moderno e intuitivo** con experiencia responsiva.  
 
 ---
 
 ## 📸 Vista previa
 
-### Página principal
-![Home](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/1.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/1.png" width="600"><br>
+  <b>Página principal</b>
+</p>
 
-### Mapa de geolocalización
-![Mapa](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/2.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/2.png" width="600"><br>
+  <b>Mapa de geolocalización</b>
+</p>
 
-### Panel de administración – Lugares registrados
-![Lugares](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/3.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/3.png" width="600"><br>
+  <b>Panel de administración – Lugares registrados</b>
+</p>
 
-### Dashboard de visitas y estadísticas
-![Dashboard](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/4.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/4.png" width="600"><br>
+  <b>Dashboard de visitas y estadísticas</b>
+</p>
 
 ---
-![Home](https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/1.png)
-![Mapa](https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/2.png)
-![Lugares](https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/3.png)
-![Dashboard](https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/4.png)
-
 
 ## 🛠️ Instalación y configuración
 
@@ -57,21 +78,21 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
    cd turisKuy-capachicav1
    ```
 
-3. Instala las dependencias de Laravel:
+3. Instala dependencias de Laravel:
 
    ```bash
    composer install
    npm install && npm run dev
    ```
 
-4. Configura el archivo **.env** con tu base de datos y credenciales:
+4. Configura el archivo **.env**:
 
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
 
-5. Ejecuta las migraciones y seeders:
+5. Ejecuta migraciones y seeders:
 
    ```bash
    php artisan migrate --seed
@@ -87,19 +108,31 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
 
 ## 🧑‍💻 Tecnologías utilizadas
 
-* [Laravel 10](https://laravel.com/) – Framework backend
-* [Leaflet](https://leafletjs.com/) – Mapas interactivos
-* [MySQL](https://www.mysql.com/) – Base de datos
-* [TailwindCSS](https://tailwindcss.com/) – Estilos y UI moderna
-* [JavaScript ES6](https://developer.mozilla.org/es/docs/Web/JavaScript) – Funcionalidad dinámica
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,mysql,tailwind,js,github,vscode" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=python,opencv,pytorch,tensorflow&perline=4" />
+</p>
 
 ---
 
 ## 📌 Próximas mejoras
 
-* Implementación de autenticación con OAuth (Google/Facebook).
-* Integración con APIs de turismo y clima.
-* Módulo de comentarios y calificaciones de lugares.
-* Soporte multilenguaje (español/inglés).
+* 🔑 Autenticación con OAuth (Google/Facebook).
+* 🌦️ Integración con APIs de turismo y clima.
+* ⭐ Sistema de comentarios y calificaciones.
+* 🌎 Soporte multilenguaje (español/inglés).
 
 ---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia **MIT** – puedes usarlo, modificarlo y distribuirlo libremente.
+
+---
+
+<h3 align="center">💡 Desarrollado con ❤️ por <a href="https://github.com/GaryFernandoYM">Gary Fernando Yunganina Mamani</a></h3>
+```
+
+---
+
