@@ -22,16 +22,16 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
 ## 📸 Vista previa
 
 ### Página principal
-![Home](img/1.png)
+![Home]([img/1.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/1.png))
 
 ### Mapa de geolocalización
-![Mapa](img/2.png)
+![Mapa]([img/2.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/2.png))
 
 ### Panel de administración – Lugares registrados
-![Lugares](img/3.png)
+![Lugares]([img/3.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/3.png))
 
 ### Dashboard de visitas y estadísticas
-![Dashboard](img/4.png)
+![Dashboard]([img/4.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/4.png))
 
 ---
 
