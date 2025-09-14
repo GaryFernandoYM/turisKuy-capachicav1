@@ -1,4 +1,8 @@
-¡Excelente! 🙌 Te dejo un **README.md completo y listo para usar** en tu repositorio de GitHub. Lo hice con estilo profesional y en español, resaltando tu proyecto **TurisKuy**:
+Perfecto 🚀 Veo que lo que quieres es que tu **README** se muestre bien en GitHub.
+En tu versión, pusiste imágenes con sintaxis mezclada `![Home]([img/1.png](...))`, lo cual hace que no se vean.
+La forma correcta es usar **Markdown puro** con la URL completa del repositorio.
+
+Aquí te dejo tu README **corregido y listo para pegar en GitHub**:
 
 ````markdown
 # 🌍 TurisKuy – Turismo inteligente y sostenible en Capachica
@@ -22,16 +26,16 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
 ## 📸 Vista previa
 
 ### Página principal
-![Home]([img/1.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/1.png))
+![Home](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/1.png)
 
 ### Mapa de geolocalización
-![Mapa]([img/2.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/2.png))
+![Mapa](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/2.png)
 
 ### Panel de administración – Lugares registrados
-![Lugares]([img/3.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/3.png))
+![Lugares](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/3.png)
 
 ### Dashboard de visitas y estadísticas
-![Dashboard]([img/4.png](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/4.png))
+![Dashboard](https://github.com/GaryFernandoYM/turisKuy-capachicav1/blob/main/img/4.png)
 
 ---
 
@@ -47,23 +51,27 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
    ```bash
    cd turisKuy-capachicav1
    ```
+
 3. Instala las dependencias de Laravel:
 
    ```bash
    composer install
    npm install && npm run dev
    ```
+
 4. Configura el archivo **.env** con tu base de datos y credenciales:
 
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
+
 5. Ejecuta las migraciones y seeders:
 
    ```bash
    php artisan migrate --seed
    ```
+
 6. Inicia el servidor local:
 
    ```bash
@@ -90,20 +98,3 @@ Permite a los visitantes visualizar atractivos turísticos mediante geolocalizac
 * Soporte multilenguaje (español/inglés).
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia **MIT** – puedes usarlo, modificarlo y distribuirlo libremente.
-
----
-
-💡 Desarrollado con ❤️ por **Gary Fernando Yunganina Mamani**
-
-```
-
----
-
-👉 Con esto, tu README ya se ve **profesional y completo** (descripción, instalación, tecnologías, capturas, licencia).  
-
-¿Quieres que también te prepare la **versión en inglés** para que tu GitHub sea bilingüe y más atractivo para colaboradores externos?
-```
