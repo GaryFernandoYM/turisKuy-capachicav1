@@ -39,32 +39,6 @@
 - 📊 **Dashboard con estadísticas** y mapas de calor.  
 - 🎨 **Diseño moderno e intuitivo** con experiencia responsiva.  
 
----
-
-## 📸 Vista previa
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/1.png" width="600"><br>
-  <b>Página principal</b>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/2.png" width="600"><br>
-  <b>Mapa de geolocalización</b>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/3.png" width="600"><br>
-  <b>Panel de administración – Lugares registrados</b>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GaryFernandoYM/turisKuy-capachicav1/main/img/4.png" width="600"><br>
-  <b>Dashboard de visitas y estadísticas</b>
-</p>
-
----
-
 ## 🛠️ Instalación y configuración
 
 1. Clona este repositorio:
